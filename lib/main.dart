@@ -115,19 +115,6 @@ class _MyHomePageState extends State<MyHomePage> {
       // action in the IDE, or press "p" in the console), to see the
       // wireframe for each widget.
       mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          const Text('Flutter first project WEB Academy (Kolesnykov Serhii)',
-          style:
-          TextStyle(fontSize: 20),
-          overflow: TextOverflow.visible,),
-          Text(
-            '$_counter',
-            style: Theme
-                .of(context)
-                .textTheme
-                .headlineMedium,
-          ),
-        ],
       ),
     ),
     floatingActionButton: FloatingActionButton(
